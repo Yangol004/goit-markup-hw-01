@@ -57,10 +57,18 @@ color:var( --iris );
 
 .verh-text {
     font-weight: 500;
-    color: #2E2F42;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var( --navy-blue ) ;
     flex: none;
     order: 0;
     flex-grow: 0;
+}
+.verh-text:hover {
+color:var(--ocean);
+}
+.verh-text:focus {
+color:var(--ocean);
 }
 
 .header1 {
