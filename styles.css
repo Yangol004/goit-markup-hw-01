@@ -39,22 +39,14 @@ color:var( --iris );
 
 .link {
     text-decoration: none;
-    /* Body */
-
-    font-family: 'Roboto';
+     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height, or 150% */
-
-    letter-spacing: 0.02em;
-
-    /* SLATE */
-
-    color: #434455;
+     letter-spacing: 0.02em;
+      color: #434455;
 }
-
 .verh-text {
     font-weight: 500;
     line-height: 1.5;
@@ -72,9 +64,7 @@ color:var(--ocean);
 }
 
 .header1 {
-    /* Header 1 */
-
-    font-family: 'Roboto';
+     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
@@ -224,38 +214,33 @@ color:var(--ocean);
     order: 0;
     flex-grow: 0;
 }
-
+/* Footer */
+.down {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--iris);
+    background: var(--grey);
+}
 .studio-down {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
-    /* identical to box height, or 117% */
-
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
-    /* CLOUD */
-
-    color: #F4F4FD;
-
-
-    /* Inside auto layout */
-
+    color: var( --cloud );
     flex: none;
     order: 1;
     flex-grow: 0;
 }
-
-.down {
-    /* NAVY BLUE */
-
-    background: #2E2F42;
-}
-
 .text {
     /* text */
 
