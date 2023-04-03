@@ -10,9 +10,6 @@
     --slate: #434455;
 
 }
-
-/* styles */
-
 .body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -143,9 +140,6 @@
 .btn:focus {
     background-color: var(--ocian)
 }
-
-
-
 .strategy {
     /* Header 3 */
 
