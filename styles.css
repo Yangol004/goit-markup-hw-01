@@ -208,11 +208,12 @@ color:#4D5AE5;
 }
 
 .link-down {
-    font-family: 'Raleway';
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     /* identical to box height, or 117% */
 
     display: flex;
